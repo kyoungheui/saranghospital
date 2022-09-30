@@ -1,4 +1,48 @@
-header figure {
-    width: 205px;
-    height: 33px;
+:root {
+    --main-color: #7BB0C1;
+    --font-white: #fff;
+    --font-black: #000;
+    --font-gray: #E3E3E3;
+    --font-gold:#FFD700;
+    --font-red:#FF0000;
+    --font-blue:#0E6EB8;
+    --font-green:#8EC31F;
+    --font-yellow:#FFE500;
+    --font-navy:#092F4D;
+    --font-footer-background-color: #363636;
+    --background-color-gray:#e3e3e3;
 }
+
+header img {
+    position: absolute;
+    width: 240px;
+    height: 70px;
+    left: 120px;
+    top: 0px;
+    
+}
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+}
+.menu{
+    padding: 30px 0px;
+    gap: 50px;
+    position: absolute;
+    width: 518px;
+    height: 10px;
+    left: 802px;
+    top: 0px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
