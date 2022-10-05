@@ -13,30 +13,32 @@
 
 <body>
     <header>
-        <h1>
-            <a href="#">
-                <figure>
-                    <img src="img/logo black.png" alt="인천사랑병원">
-                </figure>
-                <span class="hidden">인천사랑병원</span>
-            </a>
-        </h1>
-        <div class="menu">
-            <ul>
-                <li>진료안내</li>
-                <li>병원안내</li>
-                <li>진료센터</li>
-                <li>사랑이야기</li>
-                <li>병원소개</li>
-            </ul>
+        <div class="header-container">
+            <h1>
+                <a href="#">
+                    <figure>
+                        <img src="img/logo black.png" alt="인천사랑병원">
+                    </figure>
+                    <span class="hidden">인천사랑병원</span>
+                </a>
+            </h1>
+            <nav class="menu">
+                <ul>
+                    <li>진료안내</li>
+                    <li>병원안내</li>
+                    <li>진료센터</li>
+                    <li>사랑이야기</li>
+                    <li>병원소개</li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
         <section id="main-title">
             <div class="banner-box">
-                <img src="img/sarang.jpeg" alt="인천사랑병원">
-                <p class="main-text-title">전문적인 진료와 우수한 헬스케어</p>
-                <p class="title-second">시스템으로 환자 맞춤형 안전지대 구현</p>
+                <!-- background로 이미지 넣을것 -->
+                <p class="first-text"> <span class="main-text-title">전문적인 진료와 우수한 헬스케어</span>
+                    <br> 시스템으로 환자 맞춤형 안전지대 구현</p>
                 <p class="title-appeal">지속적인 MOU체결로 인천 제일의 종합병원으로 그 가치를 이뤄내고 있습니다.</p>
             </div>
         </section>
@@ -84,65 +86,96 @@
         </section>
         <section class="center-info">
             <h2>인천사랑병원 센터안내</h2>
-            <hr>
+           <!-- h2한테 border-bottom주기 -->
             <div class="center-menu-container">
-                <div>
-                    <img src="img/4082109_healthcare_hospital_medical_icon.png" alt="심장혈관센터">
-                    <span>심장・혈관센터</span>
-                </div>
-                <div>
-                    <img src="img/4082111_healthcare_hospital_medical_icon.png" alt="소화기센터">
-                    <span>소화기센터</span>
-                </div>
-                <div>
-                    <img src="img/4082089_healthcare_hospital_medical_icon.png" alt="호흡기센터">
-                    <span>호흡기센터</span>
-                </div>
-                <div>
-                    <img src="img/4082071_healthcare_hospital_medical_icon.png" alt="관절센터">
-                    <span>관절센터</span>
-                </div>
-                <div>
-                    <img src="img/1904389_anatomy_back_backbone_bone_chiropractic_icon.png" alt="척추센터">
-                    <span>척추센터</span>
-                </div>
-                <div>
-                    <img src="img/8212273_pacemaker_heartbeat_heart_cardiac_artificial_icon.png" alt="인공심장센터">
-                    <span>인공심장센터</span>
-                </div>
-                <div>
-                    <img src="img/4082075_healthcare_hospital_medical_icon.png" alt="뇌건강치매센터">
-                    <span>뇌건강치매센터</span>
-                </div>
-                <div>
-                    <img src="img/1913444_brain_head_human_neurology_psychology_icon.png" alt="뇌신경센터">
-                    <span>뇌신경센터</span>
-                </div>
-                <div>
-                    <img src="img/1289470_massage_physical medicine_physiotherapy_rehabilitation_icon.png" alt="재활의학센터">
-                    <span>재활의학센터</span>
-                </div>
-                <div>
-                    <img src="img/2538738_emergency_light_police_security_icon.png" alt="응급의료센터">
-                    <span>응급의료센터</span>
-                </div>
-                <div>
-                    <img src="img/1289464_family medicine_health insurcance_healthcare_icon.png" alt="종합검진센터">
-                    <span>종합검진센터</span>
-                </div>
-                <div>
-                    <img src="img/1289465_internal medicine_medical examination_stethoscope_icon.png" alt="국가암검진센터">
-                    <span>국가암검진센터</span>
-                </div>
-                <div>
-                    <img src="img/5114911_architecture_construction_engineering_helmet_industry_icon.png"
-                        alt="직업환경의학센터">
-                    <span>직업환경의학센터</span>
-                </div>
-                <div>
-                    <img src="img/5804675_artery_blood_capillary_vessel_icon.png" alt="심뇌혈관센터">
-                    <span>심・뇌・혈관센터</span>
-                </div>
+                <ul>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/Heartvascularcenter/sindex.jsp">   
+                            <img src="img/4082109_healthcare_hospital_medical_icon.png" alt="심장혈관센터">
+                            <span>심장・혈관센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/Smallarmscenter/sindex.jsp">    
+                            <img src="img/4082111_healthcare_hospital_medical_icon.png" alt="소화기센터">
+                            <span>소화기센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/Respiratorycenters/sindex.jsp">
+                            <img src="img/4082089_healthcare_hospital_medical_icon.png" alt="호흡기센터">
+                            <span>호흡기센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/Jointcenter/sindex.jsp">   
+                            <img src="img/4082071_healthcare_hospital_medical_icon.png" alt="관절센터">
+                            <span>관절센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/Spinecenter/sindex.jsp">
+                            <img src="img/1904389_anatomy_back_backbone_bone_chiropractic_icon.png" alt="척추센터">
+                            <span>척추센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/Artificialkidneycentre/sindex.jsp"> 
+                            <img src="img/8212273_pacemaker_heartbeat_heart_cardiac_artificial_icon.png" alt="인공신장센터">
+                            <span>인공신장센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/Braindementia/sindex.jsp">
+                            <img src="img/4082075_healthcare_hospital_medical_icon.png" alt="뇌건강치매센터">
+                            <span>뇌건강치매센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/Cranialnervecenter/sindex.jsp">
+                            <img src="img/1913444_brain_head_human_neurology_psychology_icon.png" alt="뇌신경센터">
+                            <span>뇌신경센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/RehabilitationMedicalCenter/sindex.jsp">
+                            <img src="img/1289470_massage_physical medicine_physiotherapy_rehabilitation_icon.png"
+                            alt="재활의학센터">
+                            <span>재활의학센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/ccenter/EmergencyMedicalCenter/sindex.jsp">
+                            <img src="img/2538738_emergency_light_police_security_icon.png" alt="응급의료센터">
+                            <span>응급의료센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/synthesis/centerinfo.jsp">    
+                            <img src="img/1289464_family medicine_health insurcance_healthcare_icon.png" alt="종합검진센터">
+                            <span>종합검진센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/checkup/checkup1.jsp">
+                            <img src="img/1289465_internal medicine_medical examination_stethoscope_icon.png" alt="국가암검진센터">
+                            <span>국가암검진센터</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/environment/MedicalCenter.jsp">
+                            <img src="img/5114911_architecture_construction_engineering_helmet_industry_icon.png"
+                            alt="직업환경의학센터">
+                            <span>직업환경의학센터</span>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="https://www.saranghospital.com/About/center/centerinfo/centerinfo.jsp">
+                            <img src="img/5804675_artery_blood_capillary_vessel_icon.png" alt="심뇌혈관센터">
+                            <span>심・뇌・혈관센터</span>
+                        </a>
+                    </li>
+                </ul>
                 <button class="view">
                     전체보기
                 </button>
@@ -150,7 +183,7 @@
         </section>
         <section class="health-info">
             <h2>건강정보</h2>
-            <hr>
+            <!-- h2한테 border-bottom주기 -->
             <div class="health-menu-container">
                 <div>
                     <h3>가을철 야외활동시 발열성 질환 예방수칙</h3>
@@ -197,8 +230,8 @@
                 </div>
                 <div class="contact-text">
                     <i class="fa-thin fa-alarm-clock"></i>
-                    <dl>평ㅤ일 : 08:30 ~ 17:30</dl>
-                    <dl>토요일 : 08:30 ~ 12:30</dl>
+                    <p>평ㅤ일 : 08:30 ~ 17:30</p>
+                    <p>토요일 : 08:30 ~ 12:30</p>
                     <span>일요일/공휴일 휴무</span> <br>
                     점심시간 12:30 ~ 13:30
 
@@ -208,7 +241,8 @@
                 </div>
                 <div class="contact-text">
                     <i class="fa-thin fa-phone"></i>
-                    <p>032-457-2000</p>
+                    <a href="tel : 032-457-2000">032-457-2000</a>
+                    
                 </div>
             </div>
         </div>
