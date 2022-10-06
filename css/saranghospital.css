@@ -28,14 +28,19 @@ header img {
     clip: rect(1px, 1px, 1px, 1px);
     overflow: hidden;
 }
+
+.header-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 120px;
+}
 .menu{
     padding: 30px 0px;
-    gap: 50px;
     position: absolute;
     width: 518px;
     height: 10px;
-    left: 802px;
-    top: 0px;
 }
 
 .menu ul {
@@ -64,10 +69,122 @@ header img {
     font-weight: 400;
     line-height: 150%;
 /* or 45px */
-
-text-align: right;
+    text-align: right;
 }
 .main-text-title {
     font-size: 40px;
     font-weight: 700;
+}
+
+.title-appeal {
+    position: absolute;
+    right: 8.33%;
+    top: 42.5%;
+    bottom: 54.34%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--font-gold);
+}
+
+.main-quick {
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 760px;
+    background-color: var(--font-white);
+}
+
+.quick-wrapper {
+    display: flex;
+    margin-top: 58px;
+    margin-left: 120px;
+}
+.menu-title {
+    width: 600px;
+    height: 102px;
+    left: 118px;
+    top: 818px;
+}
+.menu-title h2 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--font-blue);
+}
+
+.menu-title p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.menu-title span {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.menu-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.menu-icon p {
+    font-size: 13px;
+    font-weight: 600;
+    /* width: 100px; */
+    margin-top: 15px;
+    text-align: center;
+}
+
+.menu-list ul {
+    display: flex;
+    gap: 20px;
+    width: 529px;
+    height: 102px;
+}
+
+.main-intro {
+    width: 1440px;
+    height: 612px;
+    top: 960px;
+}
+
+.building {
+    display: flex;
+}
+
+.building img {
+    width: 412px;
+    height: 547px;
+    margin-left: 120px;
+}
+
+.ideology img {
+    position: absolute;
+    width: 842px;
+    height: 447px;
+    left: 478px;
+    top: 300px;
+    z-index: 1;
+    
+}
+
+.main-intro {
+    width: 1440px;
+    height: 612px;
+    left: 0px;
+    top: 960px;
+    background-color: var(--font-white);
+}
+.text-container {
+    position: relative;
+    text-align: centet;
+}
+.text-container span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
 }
