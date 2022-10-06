@@ -50,12 +50,13 @@ header img {
     font-size: 16px;
     font-weight: bold;
 }
-
-.banner-box {
-    width: 1440px;
-    height: 760px;
+.main-title {
     background-image: url(../img/sarang.jpeg);
     background-size: cover;
+}
+.banner-box {
+    width: 100%;
+    height: 760px;
 }
 
 .first-text {
@@ -150,6 +151,7 @@ header img {
     width: 1440px;
     height: 612px;
     top: 960px;
+    position: relative;
 }
 
 .building {
@@ -175,8 +177,6 @@ header img {
 .main-intro {
     width: 1440px;
     height: 612px;
-    left: 0px;
-    top: 960px;
     background-color: var(--font-white);
 }
 .text-container {
