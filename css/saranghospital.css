@@ -167,7 +167,7 @@ header img {
     position: absolute;
     width: 842px;
     height: 447px;
-    left: 478px;
+    left: 410px;
     top: 300px;
     z-index: 2;
     
@@ -203,8 +203,9 @@ header img {
 }
 
 .center-info {
+    padding-top:250px;
     width: 100%;
-    height: 700px;
+    height: 400px;
     background-color: var(--background-color-gray);
 }
 
@@ -215,10 +216,119 @@ header img {
     text-align: center;
     border-bottom: 2px solid;
     line-height: 50px;
+    margin: 0 auto;
 }
 
 .center-menu-container ul {
     display: flex;
     align-items: center;
+    margin-top: 50px;
+    gap: 20px;
 }
 
+.center-overflow li {
+    border: 2px solid var(--main-color) ;
+    border-radius: 15px;
+    background-color: var(--font-white);
+}
+
+.center-overflow a {
+    width: 142px;
+    height: 156px;
+    display: block;
+    margin: 0 auto;
+}
+.center-overflow a img {
+    width: 78px;
+    height: 79px;
+}
+
+.center-overflow span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.view {
+    width: 109px;
+    height: 40px;
+    background-color: var(--font-blue);
+    border: 1px solid var(--font-blue);
+    color: var(--font-white);
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+}
+
+.health-info {
+    width: 100%;
+    height: 805px;
+    background-color: var(--font-white);
+    padding-top: 50px;
+}
+
+.health-text{
+    width: 225px;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.health-menu-container {
+    width: 1201px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.health-menu-container div {
+    width: 380px;
+    height: 262px;
+    border: 2px solid var(--main-color);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.health-menu-container h3 {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.health-menu-container p {
+    width: 317px;
+    height: 75px;
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 200%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 auto;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+.map {
+    width: 586px;
+    height: 524px;
+}
+
+.contact-us {
+    width: 404px;
+    height: 524px;
+    background-color: var(--main-color);
+
+}
