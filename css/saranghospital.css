@@ -14,11 +14,8 @@
 }
 
 header img {
-    position: absolute;
     width: 240px;
     height: 70px;
-    left: 120px;
-    top: 0px;
     
 }
 .hidden {
@@ -31,22 +28,18 @@ header img {
 
 .header-container {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 120px;
+    margin: 0 auto;
+    justify-content: space-around;
 }
 .menu{
     padding: 30px 0px;
-    position: absolute;
     width: 518px;
     height: 10px;
-    color: var(--font-white);
 }
 
 .menu ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 50px;
     font-size: 16px;
     font-weight: bold;
@@ -164,6 +157,11 @@ header img {
     margin-left: 120px;
 }
 
+.building img:hover {
+    border-radius: 50px;
+    transition: all 0.3s;
+} 
+
 .ideology img {
     position: absolute;
     width: 842px;
@@ -171,8 +169,12 @@ header img {
     left: 410px;
     top: 300px;
     z-index: 2;
-    
 }
+
+.ideology img:hover {
+    border-radius: 50px;
+    transition: all 0.3s;
+} 
 
 .text-container {
     margin-top:50px;
@@ -337,7 +339,7 @@ header img {
 .map-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .map {
     width: 586px;
@@ -445,6 +447,9 @@ header img {
     display: flex;
     padding-top: 85px;
     margin: 0 120px;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 400px;
 }
 
 .item {
@@ -464,5 +469,5 @@ header img {
     margin: 0 120px;
     display: flex;
     justify-content: flex-end;
-    padding-top: 100px;
+    margin-top: 40px;
 }
