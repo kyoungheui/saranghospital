@@ -41,6 +41,7 @@ header img {
     position: absolute;
     width: 518px;
     height: 10px;
+    color: var(--font-white);
 }
 
 .menu ul {
@@ -194,6 +195,7 @@ header img {
 
 .text-container h2 > span {
     color: var(--font-red);
+    font-weight: 700;
 }
 
 .history-add {
