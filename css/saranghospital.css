@@ -176,6 +176,19 @@ header img {
     transition: all 0.3s;
 } 
 
+/* .img-box-wrapper {
+    width: 842px;
+    height: 447px;
+    border-radius: 50px;
+    background-color: var(--font-navy);
+}
+
+.img-box-wrapper img {
+    width: 262px;
+    height: 208px;
+} */  
+
+/* 어떻게 해야하는지 모르겠다.... */
 .text-container {
     margin-top:50px;
     width: 700px;
@@ -231,7 +244,7 @@ header img {
     transition: 0.5s;
     transform: translateX(-166px);
 }
-
+/* 안움직임...  */
 .center-overflow {
     width: 976px;
     overflow: hidden;
@@ -253,6 +266,19 @@ header img {
     margin: 0 auto;
     align-items: center;
 }
+
+.center-overflow li:hover {
+    background-color: var(--main-color);
+    border: 2px solid var(--font-white) ;
+    border-radius: 15px;
+}
+
+.center-overflow a:hover, .center-overflow a img, .center-overflow span { 
+        transform: translateY(-10px);
+        transition: 0.5s;
+}
+
+/* 글씨까지 하얗게 바꾸려면...? */
 .center-overflow a img {
     width: 78px;
     height: 79px;
@@ -263,7 +289,9 @@ header img {
     font-size: 16px;
     line-height: 19px;
     margin-top: 10px;
+    color: var(--font-black);
 }
+
 
 .view {
     width: 109px;
@@ -274,6 +302,12 @@ header img {
     border-radius: 10px;
     display: block;
     margin: 50px auto;
+}
+
+.view:hover {
+    background-color: var(--font-white);
+    border: 1px solid var(--font-blue);
+    color: var(--font-blue);
 }
 
 .health-info {
@@ -309,6 +343,11 @@ header img {
     border: 2px solid var(--main-color);
     border-radius: 15px;
     margin-bottom: 15px;
+}
+
+.health-menu-container div:hover {
+    border: 2px solid var(--font-blue);
+    color: var(--font-blue);
 }
 
 .health-menu-container h3 {
