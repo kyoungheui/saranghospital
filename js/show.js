@@ -1,7 +1,21 @@
-// let index 
-// index를 더해가면서
+banner();
 
-// 3애서 1로 돌아간다로 
+function banner(){
+    const bannerBox = document.getElementsByClassName('banner-box');
+    let index = 0;
 
-// settimeout (일정시간마다 실행해주는)
+    setInterval(nextBanner(), 5000);
 
+    function nextBanner() {
+        for(let i = 0 ; i < bannerBox.length ; i ++){
+            bannerBox[i].classList.remove('show');
+        }
+        
+        index++;
+        if(index===3){
+            index = 0 ;
+        }
+        bannerBox[index].classList.add('show');
+    }
+
+}
