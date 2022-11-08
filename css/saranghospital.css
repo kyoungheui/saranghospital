@@ -13,6 +13,9 @@
     --background-color-gray:#e3e3e3;
 }
 
+body {
+    min-width: 1040px;
+}
 header img {
     width: 240px;
     height: 70px;
@@ -51,6 +54,7 @@ header img {
 }
 .banner-box {
     width: 100%;
+    min-width: 1040px;
     height: 760px;
     opacity: 0;
     transition: 0.7s;
@@ -120,16 +124,6 @@ header img {
     font-weight: 700;
 }
 
-.yellowsystem {
-    position: absolute;
-    right: 8.33%;
-    top: 25%;
-    bottom: 54.34%;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: var(--font-gold);
-}
 
 .main-text-title {
     font-size: 40px;
@@ -140,6 +134,17 @@ header img {
     position: absolute;
     right: 8.33%;
     top: 42.5%;
+    bottom: 54.34%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--font-gold);
+}
+
+.yellowsystem {
+    position: absolute;
+    right: 8.33%;
+    top: 25%;
     bottom: 54.34%;
     font-weight: 600;
     font-size: 20px;
@@ -285,8 +290,10 @@ header img {
 }
 
 .center-info {
+    padding-bottom:50px;
     padding-top:250px;
     width: 100%;
+    min-width: 1040px;
     height: 400px;
     background-color: var(--background-color-gray);
 }
@@ -357,15 +364,19 @@ header img {
     color: var(--font-black);
 }
 
+#pb {
+    margin-right: 976px;
+}
 #pb , #bb {
     border: 0px;
     background-color: var(--main-color);
-    width:30px;
-    height:30px;
+    width:40px;
+    height:40px;
     border-radius:75px;
     text-align: center;
     font-weight: 500;
     color: white;
+    font-size: 20px;
 }
 
 #pb:hover, #bb:hover {
@@ -394,6 +405,7 @@ header img {
 
 .health-info {
     width: 100%;
+    min-width: 1040px;
     height: 805px;
     background-color: var(--font-white);
     padding-top: 50px;
@@ -534,6 +546,7 @@ header img {
 
 .footer-container {
     width: 100%;
+    min-width: 1040px;
     height: 377px;
     background-color: var(--font-footer-background-color);
 }
@@ -550,6 +563,7 @@ header img {
 
 .link-warp {
     display: flex;
+    gap: 20px;
 }
 
 .link-warp a {

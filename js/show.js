@@ -4,7 +4,7 @@ function banner(){
     const bannerBox = document.getElementsByClassName('banner-box');
     let index = 0;
 
-    setInterval(nextBanner(), 5000);
+    setInterval(nextBanner, 5000);
 
     function nextBanner() {
         for(let i = 0 ; i < bannerBox.length ; i ++){
@@ -12,7 +12,7 @@ function banner(){
         }
         
         index++;
-        if(index===3){
+        if(index===bannerBox.length){
             index = 0 ;
         }
         bannerBox[index].classList.add('show');
