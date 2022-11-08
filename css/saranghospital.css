@@ -298,7 +298,7 @@ header img {
 }
 
 .center-text {
-    width: 225px;
+    width: 300px;
     font-weight: 600;
     font-size: 25px;
     text-align: center;
@@ -558,6 +558,7 @@ header img {
 }
 
 .footer-top {
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
