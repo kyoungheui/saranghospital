@@ -290,10 +290,10 @@ header img {
 }
 
 .center-info {
+    padding-bottom: 50px;
     padding-top:250px;
     width: 100%;
     min-width: 1040px;
-    height: 380px;
     background-color: var(--background-color-gray);
 }
 
