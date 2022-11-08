@@ -14,7 +14,7 @@
 }
 
 body {
-    min-width: 1040px;
+    width: 1903px;
 }
 header img {
     width: 240px;
@@ -290,11 +290,10 @@ header img {
 }
 
 .center-info {
-    padding-bottom:50px;
     padding-top:250px;
     width: 100%;
     min-width: 1040px;
-    height: 400px;
+    height: 380px;
     background-color: var(--background-color-gray);
 }
 
@@ -306,6 +305,10 @@ header img {
     border-bottom: 2px solid;
     line-height: 50px;
     margin: 0 auto;
+}
+
+.center-menu-container {
+    position: relative;
 }
 
 .center-menu-container ul {
@@ -364,9 +367,6 @@ header img {
     color: var(--font-black);
 }
 
-#pb {
-    margin-right: 976px;
-}
 #pb , #bb {
     border: 0px;
     background-color: var(--main-color);
@@ -384,7 +384,13 @@ header img {
 }
 .button-box {
     text-align: center;
-    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
 }
 .view {
     width: 109px;
@@ -394,7 +400,7 @@ header img {
     color: var(--font-white);
     border-radius: 10px;
     display: block;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .view:hover {
